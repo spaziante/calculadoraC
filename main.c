@@ -11,4 +11,7 @@ void multiplicacao(float *numero1, float *numero2, float *resultado){
 
     *resultado = *numero1 * *numero2;
 
+    printf("O resultado é: %.2f\n\n", *resultado);
+    sleep(1);
+
     }
